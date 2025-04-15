@@ -60,7 +60,6 @@ https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteR
 
 https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleCDNRules.conf, policy=AppleCDN, tag=AppleCDN, enabled=true
 
-https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/GFWRules.conf, policy=PROXY, tag=FuckGFW, enabled=true
 
 # 自定义的直连
 https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/DirectRules.conf, policy=DIRECT, tag=CustomDirect, enabled=true
