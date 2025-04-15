@@ -29,9 +29,9 @@
 FuckRogueSoftware
 ProxyRules
 ...
+AppleAPIRules
 AppleNoChinaCDNRules
 AppleCDNRules
-AppleAPIRules
 AppleRules
 ...
 DirectRules
@@ -52,13 +52,19 @@ https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteR
 https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/TelegramRules.conf, policy=PROXY, tag=TelegramRules, enabled=true
 
 # Apple 规则
-https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleNoChinaCDNRules.conf, policy=AppleNoChinaCDN, tag=AppleNoChinaCDN, enabled=true
 
-https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleRules.conf, policy=Apple, tag=Apple, enabled=true
+#Apple update 
+#AppleUpdate = select,DIRECT,Proxy,REJECT-DROP,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
 
-https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleAPIRules.conf, policy=AppleAPI, tag=AppleAPI, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleUpdateRules.conf, policy=AppleUpdate,tag=AppleUpdate, enable=true
 
-https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleCDNRules.conf, policy=AppleCDN, tag=AppleCDN, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleNoChinaCDNRules.conf, policy=AppleProxy, tag=AppleNoChinaCDN, enabled=true
+
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleAPIRules.conf, policy=AppleProxy, tag=AppleAPI, enabled=true
+
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleRules.conf, policy=AppleDirect, tag=AppleRules, enabled=true
+
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleCDNRules.conf, policy=AppleDirect, tag=AppleCDN, enabled=true
 
 
 # 自定义的直连
