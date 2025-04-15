@@ -1,8 +1,15 @@
-# FuGfConfig
+# rule
 
 ## 特别声明
 
-本项目中所有内容只供学习和研究使用，不得将本项目中任何内容用于违反任何国家/地区/组织等的法律法规或相关规定的其他用途。
+1. 本项目内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
+2. 编写本项目主要目的为学习和研究ES6，无法保证项目内容的合法性、准确性、完整性和有效性。
+3. 本项目涉及的数据由使用的个人或组织自行填写，本项目不对数据内容负责，包括但不限于数据的真实性、准确性、合法性。使用本项目所造成的一切后果，与本项目的所有贡献者无关，由使用的个人或组织完全承担。
+4. 本项目中涉及的第三方硬件、软件等，与本项目没有任何直接或间接的关系。本项目仅对部署和使用过程进行客观描述，不代表支持使用任何第三方硬件、软件。使用任何第三方硬件、软件，所造成的一切后果由使用的个人或组织承担，与本项目无关。
+5. 本项目中所有内容只供学习和研究使用，不得将本项目中任何内容用于违反国家/地区/组织等的法律法规或相关规定的其他用途。
+6. 所有基于本项目源代码，进行的任何修改，为其他个人或组织的自发行为，与本项目没有任何直接或间接的关系，所造成的一切后果亦与本项目无关。
+7. 所有直接或间接使用本项目的个人和组织，应24小时内完成学习和研究，并及时删除本项目中的所有内容。如对本项目的功能有需求，应自行开发相关功能。
+8. 本项目保留随时对免责声明进行补充或更改的权利，直接或间接使用本项目内容的个人或组织，视为接受本项目的特别声明。
 
 ## 支持
 
@@ -37,28 +44,28 @@ BaseRules
 
 ```conf
 # 去广告
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftwareRules.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftwareRules.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
 
 # 自定义的代理
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/ProxyRules.conf, policy=PROXY, tag=CustomProxy, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/ProxyRules.conf, policy=PROXY, tag=CustomProxy, enabled=true
 
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/TelegramRules.conf, policy=PROXY, tag=TelegramRules, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/TelegramRules.conf, policy=PROXY, tag=TelegramRules, enabled=true
 
 # Apple 规则
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleNoChinaCDNRules.conf, policy=AppleNoChinaCDN, tag=AppleNoChinaCDN, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleNoChinaCDNRules.conf, policy=AppleNoChinaCDN, tag=AppleNoChinaCDN, enabled=true
 
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleRules.conf, policy=Apple, tag=Apple, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleRules.conf, policy=Apple, tag=Apple, enabled=true
 
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleAPIRules.conf, policy=AppleAPI, tag=AppleAPI, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleAPIRules.conf, policy=AppleAPI, tag=AppleAPI, enabled=true
 
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleCDNRules.conf, policy=AppleCDN, tag=AppleCDN, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleCDNRules.conf, policy=AppleCDN, tag=AppleCDN, enabled=true
 
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/GFWRules.conf, policy=PROXY, tag=FuckGFW, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/GFWRules.conf, policy=PROXY, tag=FuckGFW, enabled=true
 
 # 自定义的直连
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/DirectRules.conf, policy=DIRECT, tag=CustomDirect, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/DirectRules.conf, policy=DIRECT, tag=CustomDirect, enabled=true
 
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/BaseRules.conf, policy=DIRECT, tag=BaseRules, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/BaseRules.conf, policy=DIRECT, tag=BaseRules, enabled=true
 
 ```
 
@@ -68,18 +75,18 @@ https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon
 
 ```ini
 # REJECT Rules
-RULE-SET,https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Surge/FuckRogueSoftware/domain.list,REJECT,pre-matching
-# RULE-SET,https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Surge/FuckGarbageFeature/domain.list,REJECT,pre-matching
+RULE-SET,https://raw.githubusercontent.com/kimtomgo/rule/refs/heads/main/ConfigFile/Surge/FuckRogueSoftware/domain.list,REJECT,pre-matching
+# RULE-SET,https://raw.githubusercontent.com/kimtomgo/rule/refs/heads/main/ConfigFile/Surge/FuckGarbageFeature/domain.list,REJECT,pre-matching
 
 # Apple Update Rules
-RULE-SET,https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Surge/Apple/update-domain.list,AppleUpdate
+RULE-SET,https://raw.githubusercontent.com/kimtomgo/rule/refs/heads/main/ConfigFile/Surge/Apple/update-domain.list,AppleUpdate
 
 # ...
 # Apple Rules
-RULE-SET,https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Surge/Apple/no-cn-cdn-domain.list,AppleNoChinaCDN
-RULE-SET,https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Surge/Apple/api-domain.list,AppleApi
-RULE-SET,https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Surge/Apple/cdn-domain.list,AppleCDN
-RULE-SET,https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Surge/Apple/domain.list,Apple
+RULE-SET,https://github.com/kimtomgo/rule/raw/refs/heads/main/ConfigFile/Surge/Apple/no-cn-cdn-domain.list,AppleNoChinaCDN
+RULE-SET,https://github.com/kimtomgo/rule/raw/refs/heads/main/ConfigFile/Surge/Apple/api-domain.list,AppleApi
+RULE-SET,https://github.com/kimtomgo/rule/raw/refs/heads/main/ConfigFile/Surge/Apple/cdn-domain.list,AppleCDN
+RULE-SET,https://github.com/kimtomgo/rule/raw/refs/heads/main/ConfigFile/Surge/Apple/domain.list,Apple
 # ...
 ```
 
@@ -88,19 +95,19 @@ RULE-SET,https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/Config
 
 此规则对某些国内软件强屏蔽，包括但不限于广告，跟踪，数据分析
 
-在 [FuckRogueSoftware.txt](https://github.com/Elysian-Realme/FuGfConfig/blob/main/ConfigFile/DataFile/FuckRogueSoftware/domain.txt) 中可以看到部分屏蔽说明
+在 [FuckRogueSoftware.txt](https://github.com/kimtomgo/rule/blob/main/ConfigFile/DataFile/FuckRogueSoftware/domain.txt) 中可以看到部分屏蔽说明
 
 ```
 # qx
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/FuckRogueSoftwareRules.conf, force-policy=FuckRogueSoftware, tag=FuckRogueSoftware, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/QuantumultX/FuckRogueSoftwareRules.conf, force-policy=FuckRogueSoftware, tag=FuckRogueSoftware, enabled=true
 
 # loon
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/FuckRogueSoftware/domain.list, policy=FuckRogueSoftware, tag=FuckRogueSoftwareDomainRules, enabled=true
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/FuckRogueSoftware/ip.list, policy=FuckRogueSoftware, tag=FuckRogueSoftwareIPRules, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/refs/heads/main/ConfigFile/Loon/FuckRogueSoftware/domain.list, policy=FuckRogueSoftware, tag=FuckRogueSoftwareDomainRules, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/refs/heads/main/ConfigFile/Loon/FuckRogueSoftware/ip.list, policy=FuckRogueSoftware, tag=FuckRogueSoftwareIPRules, enabled=true
 
 # Surge
-RULE-SET,https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Surge/FuckRogueSoftware/domain.list,REJECT,pre-matching
-RULE-SET,https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Surge/FuckRogueSoftware/ip.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/kimtomgo/rule/refs/heads/main/ConfigFile/Surge/FuckRogueSoftware/domain.list,REJECT,pre-matching
+RULE-SET,https://raw.githubusercontent.com/kimtomgo/rule/refs/heads/main/ConfigFile/Surge/FuckRogueSoftware/ip.list,REJECT
 ```
 
 ### Apple 系统更新
@@ -111,12 +118,12 @@ RULE-SET,https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/
 # loon
 AppleUpdate = select,REJECT-DROP,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
 
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleUpdateRules.conf, policy=REJECT ,tag=AppleUpdate, enable=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleUpdateRules.conf, policy=REJECT ,tag=AppleUpdate, enable=true
 
 # qx
 static= AppleUpdate, reject, direct, img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
 
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleUpdateRules.conf, force-policy=AppleUpdate, tag=AppleUpdateRules, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/QuantumultX/Apple/AppleUpdateRules.conf, force-policy=AppleUpdate, tag=AppleUpdateRules, enabled=true
 ```
 
 ### 对于 Apple 解锁功能
@@ -172,7 +179,7 @@ AppleAPIRules 代理
 
 ```
 # DNS 映射
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonPlugin/DNSMap.plugin, tag=DNS Map, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonPlugin/DNSMap.plugin, tag=DNS Map, enabled=true
 ```
 
 #### 抖音屏蔽
@@ -183,14 +190,9 @@ https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon
 
 ```
 # FuckDouyin
-https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonPlugin/FuckDouyin.plugin, proxy=Advertising, tag=Fuck Douyin, enabled=true
+https://raw.githubusercontent.com/kimtomgo/rule/main/ConfigFile/Loon/LoonPlugin/FuckDouyin.plugin, proxy=Advertising, tag=Fuck Douyin, enabled=true
 ```
 
-### 光明的未来
-
-可以预见的未来越来越光明啦
-
-特此提前准备了白名单模式，随时准备敬献。
 
 ## 项目路线图
 
@@ -233,56 +235,3 @@ https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon
 
 [hoshsadiq/adblock-nocoin-list](https://github.com/hoshsadiq/adblock-nocoin-list/)
 
-## Fuck you Gitcode
-
-Fuck you, Gitcode.
-
-皇后大道西又皇后大道東
-
-皇后大道東轉皇后大道中
-
-皇后大道東上為何無皇宮
-
-皇后大道中人民如潮湧
-
-有個貴族朋友在硬幣背後
-
-青春不變名字叫做皇后
-
-每次買賣隨我到處去奔走
-
-面上沒有表情卻匯聚成就
-
-知己一聲拜拜遠去這都市
-
-要靠偉大同志搞搞新意思
-
-照買照賣樓花處處有單位
-
-但是旺角可能要換換名字
-
-皇后大道西又皇后大道東
-
-皇后大道東轉皇后大道中
-
-皇后大道東上為何無皇宮
-
-皇后大道中人民如潮湧
-
-這個正義朋友面善又友善
-
-因此批準馬匹一週跑兩天
-
-百姓也自然要鬥快過終點
-
-若做大國公民祇須身有錢
-
-知己一聲拜拜遠去這都市
-
-要靠偉大同志搞搞新意思
-
-冷暖氣候同樣影響這都市
-
-但是換季可能靠特異人士
-
-8964
