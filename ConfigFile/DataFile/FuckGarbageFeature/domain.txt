@@ -1,6 +1,13 @@
 # 本文件致力于屏蔽一些流氓软件中的垃圾功能
 # 注意可能您认为的不是垃圾的功能在我这儿是垃圾。使用前请注意
 
+## google
+*-pa.clients6.google.com
+android.clients.google.com
+clientservices.googleapis.com
+update.googleapis.com
+.clients2.google.com
+
 ## b 站游戏屏蔽
 .biligame.com
 .biligame.net
@@ -141,6 +148,7 @@ dns.brand.qbrand.com
 confinfo.map.qq.com
 jsapi.qq.com
 pubminishare-30161.picsz.qpic.cn
+hkextshort.weixin.qq.com
 
 
 
@@ -975,14 +983,6 @@ codepush.appcenter.ms
 .unityads.unity3d.com.edgekey.net
 .cdn-store-icons-akamai-prd.unityads.unity3d.com.edgekey.net
 .casalemedia.com.edgekey.net
-.r.casalemedia.com.edgekey.net
-.ssum.casalemedia.com.edgekey.net
-.dsum.casalemedia.com.edgekey.net
-.js-sec.casalemedia.com.edgekey.net
-.as-sec.casalemedia.com.edgekey.net
-.ssum-sec.casalemedia.com.edgekey.net
-.dsum-sec.casalemedia.com.edgekey.net
-.htlb.casalemedia.com.edgekey.net
 .api.agoda.com.edgekey.net
 .mookie1.com.edgekey.net
 .cdn-inner-active.edgekey.net
@@ -3876,8 +3876,7 @@ codepush.appcenter.ms
 .cuebiq.com
 .in.cuebiq.com
 .app.cdn.lookbookhq.com
-.logs.datadoghq.com
-.browser-http-intake.logs.datadoghq.com
+.datadoghq.com
 .app.pulsatehq.com
 .iteratehq.com
 .platform.iteratehq.com
@@ -6872,46 +6871,19 @@ codepush.appcenter.ms
 .c.steelhousemedia.com
 .cdnstoremedia.com
 .cdn.selectablemedia.com
-.as.casalemedia.com
-.r.casalemedia.com
-.amp.casalemedia.com
-.ssum.casalemedia.com
-.dsum.casalemedia.com
-.as-sec.casalemedia.com
-.ssum-sec.casalemedia.com
-.dsum-sec.casalemedia.com
-.htlb.casalemedia.com
 .casalemedia.com
 .user.lucidmedia.com
 .pixel.admedia.com
 .click.admedia.com
 .b.admedia.com
 .cdn.mobsocmedia.com
-.s.vertamedia.com
-.aux-log2-sh.vertamedia.com
-.aux-log1-sh.vertamedia.com
-.sync.vertamedia.com
-.a.vertamedia.com
-.ads27.vertamedia.com
-.ads36.vertamedia.com
-.ads16.vertamedia.com
-.ads25.vertamedia.com
-.ads34.vertamedia.com
-.ads24.vertamedia.com
-.ads33.vertamedia.com
-.ads23.vertamedia.com
-.ads32.vertamedia.com
-.ads22.vertamedia.com
-.ads12.vertamedia.com
-.ads31.vertamedia.com
-.ads21.vertamedia.com
+.vertamedia.com
 .fidelity-media.com
-.x.fidelity-media.com
 .h12-media.com
 .tags.h12-media.com
 .evbk.gamooga.com
 .sdkapicdn.applanga.com
-.mon-va.byteoversea.com
+.byteoversea.com
 .ads.pdbarea.com
 .api.pdbarea.com
 .boombit-api.exponea.com
@@ -7316,8 +7288,8 @@ mobile-data.onetrust.io
 tidal-privacy.my.onetrust.com
 .sdk.yiigle.com
 metrics.icloud.com
-
-.videotool.ossgw.alicdn.com
+.ossgw.alicdn.com
+# .videotool.ossgw.alicdn.com
 
 et.tanx.com
 api.meishesdk.com
@@ -7342,6 +7314,7 @@ brssp.ibreader.com
 .datagw-edge.alipay.com
 .loggw.alipay.com.cn
 .edgegw.alipay.com
+.amdc.alipay.com
 
 20000170l4s.my-imcloud.com
 collect.moomoo.com
@@ -7394,7 +7367,6 @@ bs2.yumchina.com
 
 .appsflyersdk.com
 download.csdn.net
-.browser-intake-datadoghq.com
 .chinaliftoff.io
 .mtgglobals.com
 .mintegral.net
@@ -7435,12 +7407,13 @@ ju.taobao.com
 eco.taobao.com
 openjmacs.m.taobao.com
 c-adash.m.taobao.com
-amdc.m.taobao.com
+.amdc.m.taobao.com
 global.click.taobao.com
 audid-api.taobao.com
 audid-api-sg.taobao.com
 click.tz.simba.taobao.com
 mclick.simba.taobao.com
+.h-adashx.ut.taobao.com
 adsz.wagbridge.taobao.alimama.com
 adsh.wagbridge.taobao.alimama.com
 adsh.wagbridge.tmall.alimama.com
@@ -7838,6 +7811,7 @@ pdns.dnspod.cn
 .suborbital.io
 .hsforms.com
 .map.qq.com
+#.lbs.map.qq.com
 .nstool.netease.com
 .qweather.com
 .immersivetranslate.com
@@ -7931,7 +7905,7 @@ iadsdk.qtlcdn.com.cdnmg.com
 .feelgrounded.com
 .ferreteriavidri.com
 .fdfc.io
-.adukwai.com
+
 .open.e.kuaishou.cn
 .xageyai.com
 .dalyai.com
@@ -8085,3 +8059,24 @@ dualstack-restios.amap.com
 .cfogc.com
 .file-link.pinduoduo.com
 .nexin.cn
+.dutils.com
+.dutils.com.bytexns.com
+.dutils.com.itotolink.net
+.hivenet.com.cn
+.tyc9421.cn
+.qbox.me
+.itdog.cn
+.smtcdns.com
+socket.freebuf.com
+.zztfly.com
+.zztfly.com.bytexns.com
+.graph.facebook.com
+.adfilter.cn
+.hubcloud.com.cn
+.voiceads.cn
+.adn-plus.com.cn
+.adbiding.com
+.adx.pw
+.adkwai.com
+.kskwai.com
+.adxiuqia.com

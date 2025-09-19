@@ -3,12 +3,13 @@
 ! class 选择器 .
 ! id 选择器 #
 
-！ 全局
+! 全局
 ##.ads
 ##.ads-ss
 ##.add-panel
 ##.Ad-root
 ##.ad-root
+##.dynamic-ad-container
 ###live2d
 
 ! google
@@ -16,7 +17,7 @@ google.com##.gb_a
 google.com##.gb_dd
 google.com##.logo
 
-！icons8
+! icons8
 icons8.com##.by-sell-ads-large
 
 ! bilibili
@@ -48,6 +49,23 @@ blog.csdn.net##.passport-auto-tip-login-container
 blog.csdn.net##.passport-container
 blog.csdn.net##.passport-container-mini
 blog.csdn.net##.passport-login-container
+||blog.csdn.net/cdn_cgi_bs_bot/static/fingerprintjs-botd-v1.js
+||blog.csdn.net/cdn_cgi_bs_bot/static/fingerprintjs-v3.js
+||csdnimg.cn/release/blogv2/dist/components/js/edit_copy_code-*.min.js
+||g.csdnimg.cn/lib/qrcode/*/qrcode.min.js
+||g.csdnimg.cn/baidu-search/*/baidu-search.js
+||g.csdnimg.cn/common/csdn-report/report.js
+||g.csdnimg.cn/copyright/*/copyright.js
+||g.csdnimg.cn/??fixed-sidebar/*/fixed-sidebar.js
+||mp-activity.csdn.net/activity/report
+
+! douban
+||img1.doubanio.com^*/douban-ad-helper*
+||img1.doubanio.com^*/download_app_banner*
+||img1.doubanio.com^*Lmpz*
+
+! OpenAI
+*||chatgpt.com/ces/v1/i
 
 ! zhihu
 zhihu.com##.css-1wq6v87
@@ -105,3 +123,11 @@ tool.oschina.net##.ad-wrap
 juejin.cn##.wechat-ad
 www.jianshu.com##._3Pnjry
 tanstack.com##div > .sticky.max-h-screen.overflow-y-auto
+||dn-growing.qbox.me/vds.js
+||assets.cnblogs.com/images/ghs.png
+||accounts.google.com^$domain=linux.do
+||js.stripe.com^$domain=linux.do
+||challenges.cloudflare.com^$domain=linux.do
+||q.stripe.com^$domain=linux.do
+||res.wx.qq.com^$domain=sspai.com|www.cnblogs.com
+||g.alicdn.com^$domain=sspai.com

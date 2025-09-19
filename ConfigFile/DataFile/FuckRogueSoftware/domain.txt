@@ -250,7 +250,6 @@ log-v6.mmstat.com.gds.alibabadns.com
 .loggw.alipay.com.cn
 .loggw-ex.alipay.com
 .agoo-report.m.taobao.com
-.h-adashx.ut.taobao.com
 .analytics.taobao.com
 .metrics.taobao.com
 .gm.mmstat.com
@@ -264,7 +263,6 @@ log-v6.mmstat.com.gds.alibabadns.com
 .ws.mmstat.com
 .res.mmstat.com
 .gds.mmstat.com
-.wgo.mmstat.com
 .go.mmstat.com
 .gj.mmstat.com
 .sg.mmstat.com
@@ -310,7 +308,6 @@ amos.alicdn.com
 .adashxgc.ut.taobao.com
 .adashx4yt.m.taobao.com
 .adashx4ae.ut.taobao.com
-# .amdc.m.taobao.com
 .apoll.m.taobao.com
 .allyes.com
 a.alimama.cn
@@ -323,7 +320,6 @@ adsh.m.taobao.com
 afp.alicdn.com
 agoodm.m.taobao.com
 agoodm.wapa.taobao.com
-.amdc.alipay.com
 api.wapa.taobao.com
 api.waptest.taobao.com
 atanx2.alicdn.com
@@ -384,7 +380,6 @@ tvupgrade.yunos.com
 .trade-acs.m.taobao.com
 .c-adash.m.taobao.com
 .huodong.m.taobao.com
-.amdc.m.taobao.com
 .detail.taobao.com
 .ald.taobao.com
 .metric.taobao.com
@@ -402,7 +397,7 @@ tvupgrade.yunos.com
 .eco.taobao.com
 # 一休数据平台
 yixiu-abtest.alicdn.com
-.h-adashx.ut.taobao.com
+
 .h-adashx.ut.dingtalk.com
 .pnsfeedback.dingtalk.com
 .baichuan-sdk.taobao.com
@@ -573,7 +568,6 @@ game.bilibili.com.w.cdngslb.com
 .px.wpk.quark.cn
 .cdn-ads.oss-cn-shanghai.aliyuncs.com
 .adash-emas.cn-hangzhou.aliyuncs.com
-.ossgw.alicdn.com
 .hudong.alicdn.com
 .log-global.aliyuncs.com
 .mqtt.aliyuncs.com
@@ -730,7 +724,6 @@ dualstack-logs.amap.com
 .gcdsdk.appsflyer.com
 .websdk.appsflyer.com
 .track.appsflyer.com
-.api.appsflyer.com
 .websdk-stg.appsflyer.com
 .customlinks-nginx-stg.appsflyer.com
 .customlinks-stg.appsflyer.com
@@ -879,7 +872,6 @@ dualstack-logs.amap.com
 .mobads-logs.baidu.com
 .mobads.baidu.com
 .mtj.baidu.com
-.nsclick.baidu.com
 .zz.bdstatic.com
 .dup.baidustatic.com
 .cpro.baidustatic.com
@@ -997,6 +989,7 @@ antivirus.baidu.com
 .tracker.dcdn.baidu.com
 .baichuan.baidu.com
 .tuijian.baidu.com
+.liantian.baidu.com
 .wm.baidu.com
 .cstm.baidu.com
 .qapm.baidu.com
@@ -1152,6 +1145,7 @@ antivirus.baidu.com
 .itsdata.map.baidu.com
 .nj.t.bcsp2p.baidu.com
 .analytics.analyticsbaidu.com
+.ug.baidu.com
 .jomoxc.com
 
 ## Bilibili 哔哩哔哩
@@ -1435,8 +1429,6 @@ mssdk-bu.bytedance.com
 .tobapplog.volceapplog.com
 .klink.volceapplog.com
 .mcs.volceapplog.com
-.toblog.volceapplog.com
-.abtest.volceapplog.com
 .sf6-be-pack.pglstatp-toutiao.com
 .pglstatp-toutiao.com
 .pangolin-sdk-toutiao-b.com
@@ -1570,6 +1562,9 @@ dm-*.toutiao.com
 .vod-license-b.volccdn.com
 .apm.volccdn.com
 .vod-settings.volcvod.com
+.mon-va.byteoversea.com
+.gpm-mon-va.byteoversea.com
+.pc-mon-va.byteoversea.com
 
 ## CSDN
 .ev.csdn.net
@@ -1666,7 +1661,6 @@ sodefaultwordapi.paas.cmbchina.com
 .push.douban.com
 
 ## Facebook
-.graph.facebook.com
 .huawei.facebook.com
 .dns.facebook.com
 .analytics.facebook.com
@@ -1675,7 +1669,6 @@ sodefaultwordapi.paas.cmbchina.com
 .wiadomosci-facebook.eu
 .recovery-facebook.ws
 .compte-facebook.ws
-.graph.facebook.com
 .mobile-facebook.com.vn
 .connect.facebook.net
 .connect.facebook.com
@@ -2841,6 +2834,8 @@ yaolu.mh.163.com
 .kratos-telemetry.nvidia.com
 .stt.nvidia.com
 
+## Openai
+
 ## Oppo
 .httpdns.push.oppomobile.com
 .httpdns.ocloud.oppomobile.com
@@ -2933,6 +2928,14 @@ cobrowse.oraclecloud.com
 .journal.plausible.io
 .feedback.plausible.io
 .lb.plausible.io
+
+## Reddit
+.w3-reporting-nel.reddit.com
+.w3-reporting.reddit.com
+.error-tracking.reddit.com
+.d.reddit.com
+.metric.reddit.com
+.alb.reddit.com
 
 ## 数字联盟 Shuzilm
 .audd.shuzilm.cn
@@ -3255,7 +3258,6 @@ cmshow.gtimg.cn
 .wxsnsdy.video.qq.com
 .routertips.video.qq.com
 # 地图 api，但被用于收集用户位置信息，是否影响腾讯地图未知，待检测
-lbs.map.qq.com
 .cc.map.qq.com
 .analytics.map.qq.com
 # 其他
@@ -3453,7 +3455,7 @@ ex.qq.com
 # extshort.weixin.qq.com
 fbih5report.3g.qq.com
 fereport.qidian.qq.com
-hkextshort.weixin.qq.com
+
 hklong.weixin.qq.com
 hkminorshort.weixin.qq.com
 hkshort.weixin.qq.com
@@ -3463,7 +3465,8 @@ icreport.html5.qq.com
 .log.wtlogin.qq.com
 .logsdk.qq.com
 .adsmind.tc.qq.com
-.httpdns.kg.qq.com
+.kg.qq.com
+#.httpdns.kg.qq.com
 .img.ssl.msdk.qq.com
 .lcsdk.3g.qq.com
 .oimsgad.qq.com
@@ -3524,7 +3527,7 @@ tmfmazu4.m.qq.com
 p2pupdate.gamedl.qq.com
 ps2.gamedl.qq.com
 .research.qq.com
-.report.kg.qq.com
+#.report.kg.qq.com
 .mayybstatnew.3g.qq.com
 .zxcv.3g.qq.com
 .mastat.3g.qq.com
@@ -3579,7 +3582,8 @@ v6.htdata.qq.com
 .keyrotate.qq.com
 .compliance.tdos.qq.com
 .appservice.qq.com
-.gdc.kg.qq.com
+#.gdc.kg.qq.com
+#.tp2p.kg.qq.com
 .nearby.3g.qq.com
 .kde.qq.com
 #.nt.qq.com.cn
@@ -3591,7 +3595,7 @@ v6.htdata.qq.com
 .pinglun.qq.com
 .report.trade.weixin.qq.com
 .report.weishi.qq.com
-.ipv6.kg.qq.com
+#.ipv6.kg.qq.com
 .report.upweb.qq.com
 .adsmind.ugdtimg.com.tcdn.qq.com
 .adsmind.gdtimg.com.tcdn.qq.com
@@ -4259,7 +4263,6 @@ p2v.tudou.com
 ad.api.3g.tudou.com
 .ad.youku.com
 .cad.youku.com
-
 notify.youku.com
 m.yes.youku.com
 s.p.youku.com
@@ -4269,6 +4272,8 @@ ad.api.mobile.youku.com
 guanggaoad.youku.com
 irs01.youku.com
 pcapp-data-collect.youku.com
+xpis-xcdn.youku.com
+xpis-mob-xcdn.youku.com
 
 ## zendesk
 .clarity.zendesk.com
@@ -6471,8 +6476,7 @@ api.getkoala.com
 .os-adtracking.medproad.com
 .adtracker.medproad.com
 .qcwx.medproad.com
-*-ad.adukwai.com
-*-jx.adukwai.com
+.adukwai.com
 .track.gourdmobi.com
 .net.hahamobi.com
 .analytics.hahamobi.com
@@ -6528,3 +6532,81 @@ api.getkoala.com
 .jpush.bntrace.com
 .log.bntrace.com
 .rdt.cfogc.com
+.analytex.userpilot.io
+.analytex-eu.userpilot.io
+.analytex-us.userpilot.io
+.api-c.dutils.com
+.api-d.dutils.com
+.api-fd.dutils.com
+.api-fc.dutils.com
+.api-gd.dutils.com
+.api-df.dutils.com
+.api-dll.dutils.com
+.api-devs.dutils.com
+.api-exc.dutils.com
+.api-verify.dutils.com
+.api-error.dutils.com
+.log-verify.dutils.com
+.cdn-api-verify.dutils.com
+.v6-api-d.dutils.com
+.v6-api-c.dutils.com
+.v6-devs-data.dutils.com
+.cache-verify.dutils.com
+.mpl.dutils.com
+.devs-data.dutils.com
+.abroad-sdk-push.dutils.com
+.sdk-push.dutils.com
+.g-adnet.dutils.com
+.m-adnet.dutils.com
+.api-d.hiaiabc.com
+.dapi.alistgo.com
+.uplog.qbox.me
+.dn-growing.qbox.me
+.widget.kapa.ai
+.metrics.kapa.ai
+.app.guideflow.com
+.sd-gl.xinqiucc.com
+.qchannel01.cn
+.qchannel03.cn
+.qchannel04.cn
+.beizi.biz
+.66mobi.com
+.xiawan8.com
+.fancyapi.com
+.baihemob.com
+.mostmob.com
+.fanglinad.com
+.adx.adxiuqia.com
+.7admob.com
+.mossru.com
+logcollection.ronghub.com
+.logs.datadoghq.com
+.browser-intake-datadoghq.com
+.logs.datadoghq.com
+.browser-http-intake.logs.datadoghq.com
+.browser-intake-us3-datadoghq.com
+.logs.datadoghq.eu
+.trace.agent.datadoghq.com
+.fdl.zztfly.com
+.cfgc.zztfly.com
+.gflb.zztfly.com
+.devc.zztfly.com
+.api-auth.zztfly.com
+.log-auth.zztfly.com
+.conf-auth.zztfly.com
+.cdn-api-auth.zztfly.com
+.cdn-api-auth.zztfly.com.bytexns.com
+.errc.zztfly.com
+.o-fdl.zztfly.com
+.adx.hubcloud.com.cn
+.sdktmp.hubcloud.com.cn
+.bjimp.voiceads.cn
+*-track.adn-plus.com.cn
+*-ad.adkwai.com
+*-yx.adkwai.com
+*-lm.adkwai.com
+*-ff.adkwai.com
+*-web.adkwai.com
+.ulog.kwai.com
+.t.adbiding.com
+.st.adx.pw
